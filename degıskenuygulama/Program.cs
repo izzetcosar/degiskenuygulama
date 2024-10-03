@@ -9,35 +9,35 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Lütfen aşağıdaki bilgileri giriniz");
-        Console.WriteLine("T.C. Kimlik Numaranız:");
+        Console.Write("T.C. Kimlik Numaranız:");
 
         string Tc = Console.ReadLine();
 
-        Console.WriteLine("Adi");
+        Console.Write("Adi:");
 
         string Name = Console.ReadLine();
 
-        Console.WriteLine("soyadı");
+        Console.Write("soyadı:");
 
         string Lastname = Console.ReadLine();
 
-        Console.WriteLine("Telefon Numarası");
+        Console.Write("Telefon Numarası:");
 
         string Telnum = Console.ReadLine();
 
         //matematiksel işlem yapmadıgımız için string veri tipini kullandım.
 
-        Console.WriteLine("yası");
+        Console.Write("yası:");
 
         string Age = Console.ReadLine();
 
-        Console.WriteLine("ilk aldıgı ürün fiyatı");
+        Console.Write("ilk aldıgı ürün fiyatı:");
 
         string firstprice = Console.ReadLine();
 
         int intfp = int.Parse(firstprice);
 
-        Console.WriteLine("İkinci aldigi ürün fiyati");
+        Console.Write("İkinci aldigi ürün fiyati:");
 
         string secondprice = Console.ReadLine();
 
