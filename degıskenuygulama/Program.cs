@@ -25,6 +25,8 @@ class Program
 
         string Telnum = Console.ReadLine();
 
+        //matematiksel işlem yapmadıgımız için string veri tipini kullandım
+
         Console.WriteLine("yası");
 
         string Age = Console.ReadLine();
@@ -40,6 +42,8 @@ class Program
         string secondprice = Console.ReadLine();
 
         int intsp = int.Parse(secondprice);
+
+        //matematiksel işlem uygulayacagimiz için string degiskenini int degiskenine cevirdim.
 
         int toplam = intsp + intfp;
 
