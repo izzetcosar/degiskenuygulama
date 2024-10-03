@@ -25,7 +25,7 @@ class Program
 
         string Telnum = Console.ReadLine();
 
-        //matematiksel işlem yapmadıgımız için string veri tipini kullandım
+        //matematiksel işlem yapmadıgımız için string veri tipini kullandım.
 
         Console.WriteLine("yası");
 
